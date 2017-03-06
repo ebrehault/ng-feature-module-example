@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { BarModule } from './bar/bar.module';
+import { CustomDisplayComponent } from './custom-display/custom-display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomDisplayComponent
   ],
   imports: [
     BrowserModule,
